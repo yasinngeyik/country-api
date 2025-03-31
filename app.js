@@ -29,25 +29,11 @@ const createCountryCard = (country) => {
     const populationText = population ? population.toLocaleString() : "Bilinmiyor";
 
     const countryCard = document.createElement("div");
-    countryCard.classList.add(
-        "bg-white",
-        "p-4",
-        "rounded-lg",
-        "shadow-lg",
-        "text-center",
-        "cursor-pointer",
-        "transition-all",
-        "duration-300",
-        "ease-in-out",
-        "transform",
-        "hover:scale-105",
-        "hover:shadow-2xl",
-        "hover:ring-2",
-        "hover:ring-blue-500"
-    );
+    countryCard.classList.add("bg-white", "p-4", "rounded-lg", "shadow-lg", "text-center", "cursor-pointer", "transition-all", "duration-300", "ease-in-out", "transform", "hover:scale-105", "hover:shadow-2xl", "hover:ring-2", "hover:ring-blue-500");
 
     countryCard.innerHTML = `
-        <img src="${flag}" alt="${countryName}" class="w-full h-32 object-cover rounded-md mb-4 transition-all duration-300 ease-in-out transform hover:scale-110">
+      <img src="${flag}" alt="${countryName}" class="w-full h-32 object-cover rounded-md mb-4 transition-all duration-300 ease-in-out transform hover:scale-110" title="${countryName}">
+
         <h3 class="text-lg font-semibold text-gray-800 mb-2">${countryName}</h3>
         <p class="text-gray-500">Nüfus: ${populationText}</p>
         
