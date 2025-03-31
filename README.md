@@ -1,23 +1,18 @@
-Ülkeler Listesi Uygulaması
+# 🌍 Ülkeler Listesi Uygulaması
 
-Bu proje, ülkelerin listesini çeken ve kullanıcıya gösteren bir web uygulamasıdır. Kullanıcı, arama çubuğunu kullanarak belirli bir ülkeyi arayabilir ve her ülkeye tıklayarak detaylı bilgileri görüntüleyebilir.
+Bu web uygulaması, **REST Countries API**'sini kullanarak tüm dünyadaki ülkeleri listeleyen ve detaylı bilgilerini görüntülemenizi sağlayan bir platformdur. Kullanıcılar, arama çubuğu aracılığıyla ülkeleri arayabilir ve her bir ülkenin bayrağı, nüfusu, başkenti, dilleri gibi bilgilerine kolayca ulaşabilir.
 
-Kullanılan Teknolojiler
+## 🚀 Kullanılan Teknolojiler
 
-HTML: Yapıyı oluşturmak için
+- **HTML**: Uygulamanın temel yapısını oluşturur.
+- **CSS (Tailwind CSS)**: Modern ve şık tasarım için.
+- **JavaScript**: Dinamik etkileşimler ve API çağrıları için.
+- **REST Countries API**: Ülkelerle ilgili verilerin sağlandığı API.
 
-CSS (Tailwind CSS): Şık ve modern tasarım için
+## ✨ Özellikler
 
-JavaScript: Dinamik işlemler için
-
-REST Countries API: Ülkelerle ilgili verileri almak için
-
-Özellikler
-
-Tüm ülkeleri listeleme
-
-Ülke bayrağını ve nüfus bilgisini gösterme
-
-Ülke adına göre arama yapma
-
-Ülkeye tıklayarak başkent, bölge ve diller gibi ekstra bilgileri görme
+- Tüm ülkeleri listeleme
+- Ülke bayrağını ve nüfus bilgisini gösterme
+- Ülke adı ile arama yapma
+- Ülkeye tıklayarak başkent, bölge, nüfus, diller gibi detayları görüntüleme
+- Modern ve kullanıcı dostu bir arayüz
