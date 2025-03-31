@@ -4,4 +4,17 @@
     align-items:center ;
     margin: 0;
     padding: 0;
+
+}
+
+.details-content {
+    display: none; 
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+
+.details-content.show {
+    display: block;
+    opacity: 1; 
 }
